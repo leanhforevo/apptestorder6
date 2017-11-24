@@ -19,17 +19,17 @@ function nifffff(callback) {
         .click('#checkout')
 
         .wait('#billing_address_full_name')
-        .type('#billing_address_full_name', 'auto test')
+        .type('#billing_address_full_name', 'td hung')
 
         .wait('#checkout_user_email')
-        .type('#checkout_user_email', 'autotest@sd.asd')
+        .type('#checkout_user_email', 'tdhung@haravan.com')
 
 
         .wait('#billing_address_phone')
         .type('#billing_address_phone', '0987654321')
 
         .wait('#billing_address_address1')
-        .type('#billing_address_address1', 'ahihi ahihi ahihi')
+        .type('#billing_address_address1', 'hung hung hung')
 
         .select('#customer_shipping_province', 50)
         // .wait(3000)
