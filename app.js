@@ -10,7 +10,7 @@ function nifffff(callback) {
    log="Function run"
 	try{
 		  nightmare
-        .goto('https://darkness.sku.vn/products/bo-chan-goi-van-phong-olivin-totoro')
+        .goto('https://darkness.sku.vn/products/bo-doi-luc-binh-men-ran-ve-tu-canh-inoceramic')
 		
         .wait('#buy-now')
         .click('#buy-now')
